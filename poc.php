@@ -3,7 +3,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 include('./vendor/autoload.php');
 
-$html = file_get_contents("http://www.bbc.co.uk/news");
+$html = file_get_contents("./data/homepage.html");
 $crawler = new Crawler($html);
 
 
