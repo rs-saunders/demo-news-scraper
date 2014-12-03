@@ -9,7 +9,7 @@ shared articles table.
 
 ## Dependancies
 
-* Symfony Cosole
+* Symfony Console
 * Symfony Dom Crawler
 * Symfony CSS Selector
 * PhpUnit
@@ -17,7 +17,11 @@ shared articles table.
 ## Installation
 Install dependancies via Composer.
 
-`composer install`
+```
+git clone git@github.com:rs-saunders/demo-news-scraper.git demo-news-scraper
+cd demo-news-scraper
+composer install
+```
 
 ## Usage
 
