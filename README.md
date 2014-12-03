@@ -15,10 +15,11 @@ shared articles table.
 * PhpUnit
 
 ## Installation
-Install dependancies via Composer.
+Install dependancies via Composer. If you don't have composer then follow the steps 
+to download it from their site: [https://getcomposer.org/download/](https://getcomposer.org/download/)
 
 ```
-git clone git@github.com:rs-saunders/demo-news-scraper.git demo-news-scraper
+git clone https://github.com/rs-saunders/demo-news-scraper.git
 cd demo-news-scraper
 composer install
 ```
@@ -33,7 +34,7 @@ view help:
 
 `php app.php scrape:bbc --help`
 
-specify a different url:
+specify a different uri:
 
 `php app.php scrape:bbc ./data/homepage.html`
 
